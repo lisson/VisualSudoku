@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using SudokuVisual.ViewModel;
 
 namespace SudokuVisual
 {
@@ -23,6 +24,7 @@ namespace SudokuVisual
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new SudokuViewModel();
         }
     }
 }
