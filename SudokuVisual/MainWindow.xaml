@@ -7,14 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="350">
     <StackPanel>
-        <Grid Height="350" VerticalAlignment="Top">
+        <Separator Height="10"/>
+        <Grid Height="350" VerticalAlignment="Top" ShowGridLines="True">
             <Grid.RowDefinitions>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
                 <RowDefinition></RowDefinition>
                 <RowDefinition></RowDefinition>
                 <RowDefinition></RowDefinition>
@@ -23,94 +18,196 @@
                 <ColumnDefinition></ColumnDefinition>
                 <ColumnDefinition></ColumnDefinition>
                 <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <TextBox Grid.Column="0" Grid.Row="0" Text="{Binding Board[0]}"></TextBox>
-            <TextBox Grid.Column="1" Grid.Row="0" Text="{Binding Board[1]}"></TextBox>
-            <TextBox Grid.Column="2" Grid.Row="0" Text="{Binding Board[2]}"></TextBox>
-            <TextBox Grid.Column="3" Grid.Row="0" Text="{Binding Board[3]}"></TextBox>
-            <TextBox Grid.Column="4" Grid.Row="0" Text="{Binding Board[4]}"></TextBox>
-            <TextBox Grid.Column="5" Grid.Row="0" Text="{Binding Board[5]}"></TextBox>
-            <TextBox Grid.Column="6" Grid.Row="0" Text="{Binding Board[6]}"></TextBox>
-            <TextBox Grid.Column="7" Grid.Row="0" Text="{Binding Board[7]}"></TextBox>
-            <TextBox Grid.Column="8" Grid.Row="0" Text="{Binding Board[8]}"></TextBox>
-            <TextBox Grid.Column="0" Grid.Row="1" Text="{Binding Board[9]}"></TextBox>
-            <TextBox Grid.Column="1" Grid.Row="1" Text="{Binding Board[10]}"></TextBox>
-            <TextBox Grid.Column="2" Grid.Row="1" Text="{Binding Board[11]}"></TextBox>
-            <TextBox Grid.Column="3" Grid.Row="1" Text="{Binding Board[12]}"></TextBox>
-            <TextBox Grid.Column="4" Grid.Row="1" Text="{Binding Board[13]}"></TextBox>
-            <TextBox Grid.Column="5" Grid.Row="1" Text="{Binding Board[14]}"></TextBox>
-            <TextBox Grid.Column="6" Grid.Row="1" Text="{Binding Board[15]}"></TextBox>
-            <TextBox Grid.Column="7" Grid.Row="1" Text="{Binding Board[16]}"></TextBox>
-            <TextBox Grid.Column="8" Grid.Row="1" Text="{Binding Board[17]}"></TextBox>
-            <TextBox Grid.Column="0" Grid.Row="2" Text="{Binding Board[18]}"></TextBox>
-            <TextBox Grid.Column="1" Grid.Row="2" Text="{Binding Board[19]}"></TextBox>
-            <TextBox Grid.Column="2" Grid.Row="2" Text="{Binding Board[20]}"></TextBox>
-            <TextBox Grid.Column="3" Grid.Row="2" Text="{Binding Board[21]}"></TextBox>
-            <TextBox Grid.Column="4" Grid.Row="2" Text="{Binding Board[22]}"></TextBox>
-            <TextBox Grid.Column="5" Grid.Row="2" Text="{Binding Board[23]}"></TextBox>
-            <TextBox Grid.Column="6" Grid.Row="2" Text="{Binding Board[24]}"></TextBox>
-            <TextBox Grid.Column="7" Grid.Row="2" Text="{Binding Board[25]}"></TextBox>
-            <TextBox Grid.Column="8" Grid.Row="2" Text="{Binding Board[26]}"></TextBox>
-            <TextBox Grid.Column="0" Grid.Row="3" Text="{Binding Board[27]}"></TextBox>
-            <TextBox Grid.Column="1" Grid.Row="3" Text="{Binding Board[28]}"></TextBox>
-            <TextBox Grid.Column="2" Grid.Row="3" Text="{Binding Board[29]}"></TextBox>
-            <TextBox Grid.Column="3" Grid.Row="3" Text="{Binding Board[30]}"></TextBox>
-            <TextBox Grid.Column="4" Grid.Row="3" Text="{Binding Board[31]}"></TextBox>
-            <TextBox Grid.Column="5" Grid.Row="3" Text="{Binding Board[32]}"></TextBox>
-            <TextBox Grid.Column="6" Grid.Row="3" Text="{Binding Board[33]}"></TextBox>
-            <TextBox Grid.Column="7" Grid.Row="3" Text="{Binding Board[34]}"></TextBox>
-            <TextBox Grid.Column="8" Grid.Row="3" Text="{Binding Board[35]}"></TextBox>
-            <TextBox Grid.Column="0" Grid.Row="4" Text="{Binding Board[36]}"></TextBox>
-            <TextBox Grid.Column="1" Grid.Row="4" Text="{Binding Board[37]}"></TextBox>
-            <TextBox Grid.Column="2" Grid.Row="4" Text="{Binding Board[38]}"></TextBox>
-            <TextBox Grid.Column="3" Grid.Row="4" Text="{Binding Board[39]}"></TextBox>
-            <TextBox Grid.Column="4" Grid.Row="4" Text="{Binding Board[40]}"></TextBox>
-            <TextBox Grid.Column="5" Grid.Row="4" Text="{Binding Board[41]}"></TextBox>
-            <TextBox Grid.Column="6" Grid.Row="4" Text="{Binding Board[42]}"></TextBox>
-            <TextBox Grid.Column="7" Grid.Row="4" Text="{Binding Board[43]}"></TextBox>
-            <TextBox Grid.Column="8" Grid.Row="4" Text="{Binding Board[44]}"></TextBox>
-            <TextBox Grid.Column="0" Grid.Row="5" Text="{Binding Board[45]}"></TextBox>
-            <TextBox Grid.Column="1" Grid.Row="5" Text="{Binding Board[46]}"></TextBox>
-            <TextBox Grid.Column="2" Grid.Row="5" Text="{Binding Board[47]}"></TextBox>
-            <TextBox Grid.Column="3" Grid.Row="5" Text="{Binding Board[48]}"></TextBox>
-            <TextBox Grid.Column="4" Grid.Row="5" Text="{Binding Board[49]}"></TextBox>
-            <TextBox Grid.Column="5" Grid.Row="5" Text="{Binding Board[50]}"></TextBox>
-            <TextBox Grid.Column="6" Grid.Row="5" Text="{Binding Board[51]}"></TextBox>
-            <TextBox Grid.Column="7" Grid.Row="5" Text="{Binding Board[52]}"></TextBox>
-            <TextBox Grid.Column="8" Grid.Row="5" Text="{Binding Board[53]}"></TextBox>
-            <TextBox Grid.Column="0" Grid.Row="6" Text="{Binding Board[54]}"></TextBox>
-            <TextBox Grid.Column="1" Grid.Row="6" Text="{Binding Board[55]}"></TextBox>
-            <TextBox Grid.Column="2" Grid.Row="6" Text="{Binding Board[56]}"></TextBox>
-            <TextBox Grid.Column="3" Grid.Row="6" Text="{Binding Board[57]}"></TextBox>
-            <TextBox Grid.Column="4" Grid.Row="6" Text="{Binding Board[58]}"></TextBox>
-            <TextBox Grid.Column="5" Grid.Row="6" Text="{Binding Board[59]}"></TextBox>
-            <TextBox Grid.Column="6" Grid.Row="6" Text="{Binding Board[60]}"></TextBox>
-            <TextBox Grid.Column="7" Grid.Row="6" Text="{Binding Board[61]}"></TextBox>
-            <TextBox Grid.Column="8" Grid.Row="6" Text="{Binding Board[62]}"></TextBox>
-            <TextBox Grid.Column="0" Grid.Row="7" Text="{Binding Board[63]}"></TextBox>
-            <TextBox Grid.Column="1" Grid.Row="7" Text="{Binding Board[64]}"></TextBox>
-            <TextBox Grid.Column="2" Grid.Row="7" Text="{Binding Board[65]}"></TextBox>
-            <TextBox Grid.Column="3" Grid.Row="7" Text="{Binding Board[66]}"></TextBox>
-            <TextBox Grid.Column="4" Grid.Row="7" Text="{Binding Board[67]}"></TextBox>
-            <TextBox Grid.Column="5" Grid.Row="7" Text="{Binding Board[68]}"></TextBox>
-            <TextBox Grid.Column="6" Grid.Row="7" Text="{Binding Board[69]}"></TextBox>
-            <TextBox Grid.Column="7" Grid.Row="7" Text="{Binding Board[70]}"></TextBox>
-            <TextBox Grid.Column="8" Grid.Row="7" Text="{Binding Board[71]}"></TextBox>
-            <TextBox Grid.Column="0" Grid.Row="8" Text="{Binding Board[72]}"></TextBox>
-            <TextBox Grid.Column="1" Grid.Row="8" Text="{Binding Board[73]}"></TextBox>
-            <TextBox Grid.Column="2" Grid.Row="8" Text="{Binding Board[74]}"></TextBox>
-            <TextBox Grid.Column="3" Grid.Row="8" Text="{Binding Board[75]}"></TextBox>
-            <TextBox Grid.Column="4" Grid.Row="8" Text="{Binding Board[76]}"></TextBox>
-            <TextBox Grid.Column="5" Grid.Row="8" Text="{Binding Board[77]}"></TextBox>
-            <TextBox Grid.Column="6" Grid.Row="8" Text="{Binding Board[78]}"></TextBox>
-            <TextBox Grid.Column="7" Grid.Row="8" Text="{Binding Board[79]}"></TextBox>
-            <TextBox Grid.Column="8" Grid.Row="8" Text="{Binding Board[80]}"></TextBox>
+            <Grid Grid.Column="0" Grid.Row="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBox Grid.Column="0" Grid.Row="0" Text="{Binding Board[0], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="1" Grid.Row="0" Text="{Binding Board[1], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="2" Grid.Row="0" Text="{Binding Board[2], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="0" Grid.Row="1" Text="{Binding Board[9], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="1" Grid.Row="1" Text="{Binding Board[10], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="2" Grid.Row="1" Text="{Binding Board[11], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="0" Grid.Row="2" Text="{Binding Board[18], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="1" Grid.Row="2" Text="{Binding Board[19], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="2" Grid.Row="2" Text="{Binding Board[20], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+            </Grid>
+            <Grid Grid.Column="1" Grid.Row="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBox Grid.Column="0" Grid.Row="0" Text="{Binding Board[3], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="1" Grid.Row="0" Text="{Binding Board[4], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="2" Grid.Row="0" Text="{Binding Board[5], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="0" Grid.Row="1" Text="{Binding Board[12], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="1" Grid.Row="1" Text="{Binding Board[13], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="2" Grid.Row="1" Text="{Binding Board[14], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="0" Grid.Row="2" Text="{Binding Board[21], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="1" Grid.Row="2" Text="{Binding Board[22], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="2" Grid.Row="2" Text="{Binding Board[23], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+            </Grid>
+            <Grid Grid.Column="2" Grid.Row="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBox Grid.Column="0" Grid.Row="0" Text="{Binding Board[6], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="1" Grid.Row="0" Text="{Binding Board[7], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="2" Grid.Row="0" Text="{Binding Board[8], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="0" Grid.Row="1" Text="{Binding Board[15], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="1" Grid.Row="1" Text="{Binding Board[16], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="2" Grid.Row="1" Text="{Binding Board[17], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="0" Grid.Row="2" Text="{Binding Board[24], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="1" Grid.Row="2" Text="{Binding Board[25], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="2" Grid.Row="2" Text="{Binding Board[26], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+            </Grid>
+            <Grid Grid.Column="0" Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBox Grid.Column="0" Grid.Row="0" Text="{Binding Board[27], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="1" Grid.Row="0" Text="{Binding Board[28], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="2" Grid.Row="0" Text="{Binding Board[29], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="0" Grid.Row="1" Text="{Binding Board[36], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="1" Grid.Row="1" Text="{Binding Board[37], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="2" Grid.Row="1" Text="{Binding Board[38], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="0" Grid.Row="2" Text="{Binding Board[45], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="1" Grid.Row="2" Text="{Binding Board[46], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="2" Grid.Row="2" Text="{Binding Board[47], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+            </Grid>
+            <Grid Grid.Column="1" Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBox Grid.Column="0" Grid.Row="0" Text="{Binding Board[30], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="1" Grid.Row="0" Text="{Binding Board[31], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="2" Grid.Row="0" Text="{Binding Board[32], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="0" Grid.Row="1" Text="{Binding Board[39], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="1" Grid.Row="1" Text="{Binding Board[40], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="2" Grid.Row="1" Text="{Binding Board[41], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="0" Grid.Row="2" Text="{Binding Board[48], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="1" Grid.Row="2" Text="{Binding Board[49], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="2" Grid.Row="2" Text="{Binding Board[50], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+            </Grid>
+            <Grid Grid.Column="2" Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBox Grid.Column="0" Grid.Row="0" Text="{Binding Board[33], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="1" Grid.Row="0" Text="{Binding Board[34], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="2" Grid.Row="0" Text="{Binding Board[35], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="0" Grid.Row="1" Text="{Binding Board[42], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="1" Grid.Row="1" Text="{Binding Board[43], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="2" Grid.Row="1" Text="{Binding Board[44], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="0" Grid.Row="2" Text="{Binding Board[51], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="1" Grid.Row="2" Text="{Binding Board[52], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="2" Grid.Row="2" Text="{Binding Board[53], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+            </Grid>
+            <Grid Grid.Column="0" Grid.Row="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBox Grid.Column="0" Grid.Row="0" Text="{Binding Board[54], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="1" Grid.Row="0" Text="{Binding Board[55], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="2" Grid.Row="0" Text="{Binding Board[56], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="0" Grid.Row="1" Text="{Binding Board[63], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="1" Grid.Row="1" Text="{Binding Board[64], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="2" Grid.Row="1" Text="{Binding Board[65], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="0" Grid.Row="2" Text="{Binding Board[72], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="1" Grid.Row="2" Text="{Binding Board[73], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="2" Grid.Row="2" Text="{Binding Board[74], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+            </Grid>
+            <Grid Grid.Column="1" Grid.Row="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBox Grid.Column="0" Grid.Row="0" Text="{Binding Board[57], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="1" Grid.Row="0" Text="{Binding Board[58], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="2" Grid.Row="0" Text="{Binding Board[59], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="0" Grid.Row="1" Text="{Binding Board[66], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="1" Grid.Row="1" Text="{Binding Board[67], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="2" Grid.Row="1" Text="{Binding Board[68], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="0" Grid.Row="2" Text="{Binding Board[75], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="1" Grid.Row="2" Text="{Binding Board[76], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="2" Grid.Row="2" Text="{Binding Board[77], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+            </Grid>
+            <Grid Grid.Column="2" Grid.Row="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBox Grid.Column="0" Grid.Row="0" Text="{Binding Board[60], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="1" Grid.Row="0" Text="{Binding Board[61], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="2" Grid.Row="0" Text="{Binding Board[62], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="0" Grid.Row="1" Text="{Binding Board[69], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="1" Grid.Row="1" Text="{Binding Board[70], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="2" Grid.Row="1" Text="{Binding Board[71], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="0" Grid.Row="2" Text="{Binding Board[78], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="1" Grid.Row="2" Text="{Binding Board[79], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <TextBox Grid.Column="2" Grid.Row="2" Text="{Binding Board[80], UpdateSourceTrigger=PropertyChanged}"></TextBox>
+            </Grid>
         </Grid>
         <Separator Height="10"/>
         <Button Content="Solve" Width="100" Command="{Binding SolveCommand}" />

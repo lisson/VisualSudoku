@@ -34,7 +34,7 @@ namespace SudokuVisual.Model
         {
             _board[r,c] = value;
             BoardIndex = r * 9 + c;
-            Debug.Write(String.Format("Setting {0}, {1} to {2}", r, c, value));
+            Debug.WriteLine(String.Format("Setting {0}, {1} to {2}", r, c, value));
         }
 
         public void Solve()
